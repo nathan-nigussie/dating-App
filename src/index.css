@@ -1,13 +1,122 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #fba48259;
+}
+
+.box {
+  background-color: white;
+  margin: 20px;
+  border: solid 2px;
+}
+.personal-detail-container {
+  padding-bottom: 10px;
+}
+
+h4 {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.note-text {
+  margin: 10px 20px;
+}
+
+fieldset {
+  margin: 10px 20px;
+  padding: 15px;
+}
+legend {
+  margin: 10px 20px;
+}
+
+label {
+  margin-left: 10px;
+}
+
+.input-text {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+h3 {
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+form {
+  margin-left: 15px;
+}
+.personal-characterstics-container {
+  margin: 10px 20px;
+  border: solid 2px;
+  padding: 20px;
+}
+
+.characterstics-form {
+  margin: 10px 0px;
+}
+.academics-poletics-cont {
+  border: solid 2px;
+  padding: 10px;
+  margin: 10px 20px;
+}
+
+.essay-fieldset {
+  padding: 0px 20px;
+}
+textarea {
+  width: 70%;
+  height: 50px;
+}
+
+.div-btn {
+  display: flex;
+  justify-content: center;
+}
+.submit-btn {
+  border-radius: 5px;
+  font-size: large;
+  background-color: rgb(65, 109, 244);
+  padding: 10px 35px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.save-btn {
+  background-color: rgb(246, 219, 45);
+  border-radius: 5px;
+  font-size: large;
+  padding: 10px 35px;
+  margin-bottom: 10px;
+  border: none;
+}
+.save-btn-cont {
+  margin: 0 10px;
+}
+.refresh-btn-cont {
+  margin: 0 10px;
+}
+.nav {
+  display: flex;
+  justify-content: right;
+  margin: 0 20px;
+}
+.refresh-btn {
+  background-color: lightgreen;
+  border-radius: 5px;
+  font-size: large;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  border: none;
+}
+.logout-image {
+  height: 25px;
+  width: 35px;
+}
+.logout-btn {
+  margin-left: 95%;
+  margin-top: 2%;
 }
